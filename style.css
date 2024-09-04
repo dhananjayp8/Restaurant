@@ -49,12 +49,12 @@ body {
 
 body {
   font-family: Arial, sans-serif;
+  color: #fff;
 }
 
 .navbar {
   background-color: #1e201e;
   padding: 10px 20px;
-  color: #fff;
 }
 
 .navbar-container {
@@ -69,8 +69,8 @@ body {
   font-size: 24px;
   color: #fff;
   text-decoration: none;
+  font-weight: 800;
 }
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -91,10 +91,42 @@ body {
   background: none;
   border: none;
   font-size: 24px;
-  color: #fff;
+
   cursor: pointer;
 }
-
+/* hero section */
+.hero-section {
+  background-image: url("./images/background.png.avif");
+  width: 100%;
+  height: 40rem;
+}
+.desc {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.desc > h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.desc > p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.desc > button {
+  background-color: darkgrey;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.desc > button:hover {
+  background-color: #35495e;
+  border-radius: 10px;
+  padding: 10px;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
   .nav-links {
