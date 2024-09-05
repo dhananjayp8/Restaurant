@@ -50,6 +50,8 @@ body {
 body {
   font-family: Arial, sans-serif;
   color: #fff;
+  overflow: scroll;
+  background-color: #eeedeb;
 }
 .header {
   position: fixed;
@@ -149,6 +151,26 @@ body {
   border: 1px solid #bacdd8;
   padding: 8px;
   border-radius: 12px;
+}
+.card > h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.card .btn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 11px;
+  background-color: #23aa79;
+}
+.btn > button:hover {
+  background-color: #6c8a6d;
 }
 .head {
   text-align: center;
