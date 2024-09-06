@@ -442,6 +442,9 @@ h1 {
   .menu-toggle {
     display: block;
   }
+  .desc {
+    margin-top: 13rem;
+  }
   .footer-container {
     display: block;
     align-content: center;
