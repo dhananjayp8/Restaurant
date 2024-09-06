@@ -228,14 +228,28 @@ body {
   color: #1e201e;
 }
 .card-review {
-  width: 18rem;
-  background-color: white;
+  width: 12rem;
+  background-color: #b4b4b8;
   padding: 8px;
   border-radius: 12px;
 }
+.card-review:hover {
+  transform: scale(1.05);
+  transition: opacity 0.3s ease;
+}
+.card-review > h2,
+p,
+.rating {
+  text-align: center;
+  padding: 5px;
+}
+.card-review > h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
 .review-container {
-  width: 90%;
-  margin: 1rem 3rem;
+  width: 95%;
+  margin: 1rem 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -400,6 +414,9 @@ h1 {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .card {
+    margin: 0 auto;
+  }
+  .card-review {
     margin: 0 auto;
   }
   .nav-links {
